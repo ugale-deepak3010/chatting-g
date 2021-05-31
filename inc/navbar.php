@@ -1,5 +1,5 @@
     <!-- navbar start -->
-    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-inversex navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -9,15 +9,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Chatting-G</a>
+          <a class="navbar-brand" href="index.php"><img src="libs/img/chatting_g_logo.png" style="display: inline;" class="img-rounded" width="30px">Chatting-G</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
             <li><a href="accounts/logout.php">Logout</a></li>
-           
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->

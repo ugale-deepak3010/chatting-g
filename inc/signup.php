@@ -1,9 +1,12 @@
+    <center><img src="libs/img/chatting_g_logo.png" class="img-rounded" width="100px"><hr></center>
+
     <div class="col-md-6">
       <?php 
       if (isset($_GET['suc'])) {
         echo '<div class="alert alert-success">You registered successfully!</div>';
       }
       ?>
+
       <div class="signup">
         <div class="panel panel-primary">
           <div class="panel-heading">
